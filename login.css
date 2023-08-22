@@ -1,0 +1,104 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+body {
+    background-color: #2A2A2A;
+    color: #d5dadf;
+    font-family: 'Quicksand', sans-serif;
+}
+.body-content {
+    margin: 10%;
+    padding: 10px;
+    text-align: center;
+
+}
+@media (max-width: 760px) {
+    .body-content{
+        margin: 10%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+.login-form {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #4A494D;
+    box-shadow: 1px 1px 20px 0px black;
+    height: 100%;
+}
+
+#email {
+    background-color: #4A494D;
+    border: 2px solid #d5dadf;
+    font-size: large;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+#email:hover {
+    background-color: #2A2A2A;
+    color: #d5dadf;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+#password {
+    background-color: #4A494D;
+    border: 2px solid #d5dadf;
+    font-size: large;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    
+}
+#password:hover {
+    background-color: #2A2A2A;
+    color: #d5dadf;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+#Login-IN {
+    background-color: #2e2741;
+    color: #d5dadf;
+    font-size: large;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #2A2A2A;
+    font-weight: 700;
+    box-shadow: -1px 2px 7px 0px #2a1e1e;
+    margin: 20px;
+}
+#Login-IN:hover {
+    background-color: #2A2A2A;
+    border: 2px solid #4A494D;
+}
+.sign-in {
+    color: #d5dadf;
+    font-size: large;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #2A2A2A;
+    font-weight: 700;
+    box-shadow: -1px 2px 7px 0px #2a1e1e;
+    margin: 20px;
+    text-decoration: none;
+}
+.sign-in {
+    background-color: #2A2A2A;
+    border: 2px solid #4A494D;
+}
+.social-media a {
+    padding: 10px;
+    margin: 10px;
+}
+.social-media a:hover {
+    color: black;
+}

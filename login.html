@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>login-page</title>
+</head>
+<body>
+    <div class="body-content">
+        <div class="inside-body">
+            <div class="login-form">
+                <form action="login">
+                    <h1>Welcome to B-Tech Notes</h1>
+                    <p>Login page in B-Tech Notes</p>
+                    <form method="post" name="google-sheet">
+                        <h1 style="font-size: large;">Email: <input type="email" name="email" placeholder="abc123@email.com" id="email">
+                        </h1>
+                        <h1 style="font-size: large;">Password: <input type="password" name="password" id="password" placeholder="**********"></h1>
+                        <input type="submit" value="Login-IN" id="Login-IN" name="submit">
+                        <a href="/sign-in.html" class="sign-in">Sign-In</a>
+                        
+                    </form>
+                </form>
+                <div class="social-media">
+                    <a href=""><i class="fa fa-instagram" style="color: #2A2A2A; font-size: 30px;"></i></a>
+                    <a href=""><i class="fa fa-facebook" style="color: #2A2A2A; font-size: 30px;"></i></a>
+                    <a href=""><i class="fa fa-twitter" style="color: #2A2A2A; font-size: 30px;"></i></a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- <script>
+        const scriptURL = "hhtps://script.google.com/macros/s/AkfycbxkgWotCMyvIKoT9aGtPCndZdHtHrq8i972t9CKAVjo6xC7T0I/exec"
+        const form = document.forms['google-sheet']
+        form.addEventListener('submit', e=>{
+            e.preventDefault()
+            fetch(scriptURL, {method: 'post', body: new FormData(form)})
+            .then(response => alert("Thanks for contacting us...! we will contact you soon..."))
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script> -->
+</body>
+</html>
